@@ -452,10 +452,6 @@ body:not(.header-fixed) .fullscreen-menu-toggle {
   float: left;
 }
 
-.block a:hover{
-  opacity: 0.6;
-}
-
 .block p{
   margin-bottom: 1rem;
 }
@@ -479,6 +475,31 @@ body:not(.header-fixed) .fullscreen-menu-toggle {
 
 .work-img{
   filter: grayscale();
+}
+
+/* SAFE FENCE page */
+
+.project-container{
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+}
+
+.project-intro{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.project-time{
+  max-width: 30%;
+}
+
+.project-short{
+  max-width: 30%;
+}
+
+.project-intro p{
+  font-family: 'DinPro-Regular';
 }
 
 /* REVIVE page */
