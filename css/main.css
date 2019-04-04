@@ -351,21 +351,23 @@ body:not(.header-fixed) .fullscreen-menu-toggle {
 }
 
 .contact-box{
-  background-color: #4100E0;
   text-align: left;
-  color: white;
+  color: #4100E0;
   width: 20%;
-  padding: 2rem;
-  margin-left: 12%;
+  padding: 1rem;
+  margin-left: 15%;
   margin-bottom: 5rem;
 }
 
 .intro{
-  width: 30%;
+  background-color: #4100E0;
+  color: white;
+  width: 20%;
   padding: 2rem;
   float: right;
-  margin: 0 10rem;
+  margin: 0 15rem;
   right: 0;
+  margin-bottom: 5rem;
 }
 
 /* WORK page */
