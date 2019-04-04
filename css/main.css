@@ -42,7 +42,9 @@ h4{
 }
 
 h5{
-  padding: 0;
+  font-family: 'DinPro-Regular';
+  font-size: 1rem;
+  line-height: normal;
 }
 
 p{
@@ -51,8 +53,8 @@ p{
 
 .page-title p{
   text-align: center;
-  /* margin-top: -5%; */
-  margin-bottom: 5rem;
+  font-family: 'DinPro-Regular';
+  margin-bottom: 12rem;
 }
 
 a {
@@ -376,6 +378,7 @@ body:not(.header-fixed) .fullscreen-menu-toggle {
 .work-container{
   margin-top: 15rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 5rem;
 }
@@ -502,38 +505,74 @@ body:not(.header-fixed) .fullscreen-menu-toggle {
   font-family: 'DinPro-Regular';
 }
 
+.project-description{
+  margin: 12rem auto;
+  max-width: 65%;
+}
+
+.project-description p{
+  font-family: 'Lora-Bold';
+  font-size: 2.2rem;
+  line-height: normal;
+  text-align: center;
+  color: #222;
+}
+
+.project-beginning {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.project-refine{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.peoject-process-left{
+  max-width: 30%;
+}
+
+.project-process-right{
+  max-width: 40%;
+}
+
+.project-process-right p{
+  font-family: 'DinPro-Regular';
+}
+
+.project-img{
+  display: inline-block;
+  margin: 12rem auto;
+}
+
+.project-img-1{
+  max-width: 35%;
+  margin-top: 5rem;
+  margin-left: 12rem;
+}
+
+.project-img-2{
+  max-width: 35%;
+  margin-top: 5rem;
+  float: right;
+  margin-right:12rem;
+}
+
 /* REVIVE page */
-
-.revive-heading{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* display: flex；
+.project-img-video{
+  display: flex;
   justify-content: center;
-  align-content: center; */
-  letter-spacing: 1px;
-  z-index: 10;
-  max-width: 80%;
+  margin: 10rem auto;
 }
 
-.revive-heading h2{
-  color: #4100E0;
-  /* text-align:center; */
-}
+/* CITATIOM */
 
-.revive-main{
-  display: block;
+.citation-container h4{
+  margin-top: 8rem;
+  color: #222;
 }
-
-.projectPic{
-  margin: auto;
-  max-width: 50%;
-  right:0;
-}
-
-.projectContent{
-  margin: auto;
-  max-width: 70%;
-  text-align: left;
+.citation-container{
+  margin-bottom: 6rem;
 }
